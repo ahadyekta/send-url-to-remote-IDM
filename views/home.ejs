@@ -1,0 +1,30 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Send Url to IDM by Nodejs</title>
+</head>
+<body class="container">
+
+<main>
+    <div style="margin: 0 auto;width: 70%;">
+        <h1>Send Url to IDM</h1>
+       <form action="/dl" method="post">
+            File Url: <input type="text" name="url" style="width:70%" placeholder="http://somesite.com/somefile.zip"  style="margin:10px 0;"/>
+            <br>
+            Instant download? <input type="checkbox" name="instant" value=1 />
+            <br>
+            <button style="margin:10px 0;">Send to Queue</button>
+       </form>
+       <hr>
+       <h1>Start the Queue</h1>
+       <a href="/start" >Start Queue</a>
+    </div>
+</main>
+
+<footer>
+   
+</footer>
+
+</body>
+</html>
