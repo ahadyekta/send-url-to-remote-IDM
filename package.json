@@ -1,13 +1,13 @@
 {
-  "name": "exec",
+  "name": "Send-url-IDM",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "send url to remote idm  and start download by nodejs",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ahad Nemati",
+  "license": "MIT",
   "dependencies": {
     "child_process": "^1.0.2",
     "ejs": "^2.5.7",
