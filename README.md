@@ -1,4 +1,4 @@
-# send-url-to-remote-IDM
+# send file url to remote IDM By NodeJs
 Send file URL to remote Internet Download Manager (IDM) by NodeJs
 
 ## Installation
